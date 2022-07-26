@@ -1,0 +1,22 @@
+git assignment 1
+
+1.create a folder into your local system
+2. in that folder create 3 txt files;-1 . code.txt
+                                       2. log.txt
+                                       3.output.txt
+3.Do git init it
+4.git add (those assigned for stage)
+5.then check the status if it staging or not
+  git status
+6.then commit the codes 
+git commit -m "type here message"
+7.push them 
+
+
+echo "# project-intellipaat" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Man-pat/project-intellipaat.git
+git push -u origin main
